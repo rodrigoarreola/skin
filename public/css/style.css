@@ -1,0 +1,39 @@
+img {
+  height: auto;
+  max-width: 100%; }
+
+#preloader {
+  position: fixed;
+  overflow: hidden;
+  background-color: #f2f4f8;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#preloader img {
+  position: absolute; }
+
+.logo-load {
+  animation: 2000ms linear 0s normal none infinite running logo-load;
+  background: transparent none repeat scroll 0 0;
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  border-color: #f2f4f8 #f2f4f8 #004588 #f2f4f8;
+  border-style: solid;
+  border-width: 2px;
+  position: absolute;
+  z-index: 10; }
+
+@keyframes logo-load {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }

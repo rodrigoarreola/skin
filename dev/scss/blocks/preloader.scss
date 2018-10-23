@@ -1,0 +1,63 @@
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+#preloader {
+    position: fixed;
+    overflow: hidden;
+    background-color: $white;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+
+    // Flexbox
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#preloader img {
+    position: absolute;
+    // This line makes the logo spin, it's up to you
+    // animation: 2000ms linear 0s normal none infinite running logo-load;
+}
+
+.logo-load {
+    // This line makes the logo spin
+    animation: 2000ms linear 0s normal none infinite running logo-load;
+
+    //Background of the square, for default it's transparent so this is pointless but ¯\_(ツ)_/¯
+    background: transparent none repeat scroll 0 0;
+
+    //Size of the square-circle (this depends on the size of your logo)
+    height: 280px;
+    width: 280px;
+
+    //Making the square a circle
+    border-radius: 50%;
+
+    border-color: $white $white $blue $white;
+    border-style: solid;
+    border-width: 2px;
+
+    //Place the box on the image
+    position: absolute;
+
+    //Just for fun
+    z-index: 10;
+}
+
+@keyframes logo-load {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
