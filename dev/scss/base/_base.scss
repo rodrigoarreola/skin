@@ -1,0 +1,313 @@
+
+@-webkit-keyframes medica-thumb {
+    0% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    50% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    }
+    100% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+}
+
+@keyframes medica-thumb {
+    0% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    50% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    }
+    100% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+}
+
+.medica-table {
+    display: table;
+    z-index: 9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.medica-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.bg-img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-default {
+    background-color: #172538;
+}
+
+.bg-gray {
+    background-color: #e0f3f9;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.bg-transparent-dark {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.bg-transparent-light {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.height-500 {
+    height: 500px !important;
+}
+
+.height-600 {
+    height: 600px !important;
+}
+
+.height-700 {
+    height: 700px !important;
+}
+
+.height-800 {
+    height: 800px !important;
+}
+
+#scrollUp {
+    background: #243eff;
+    background: -webkit-linear-gradient(to right, #3de6fa, #243eff);
+    background: -webkit-linear-gradient(left, #3de6fa, #243eff);
+    background: linear-gradient(to right, #3de6fa, #243eff);
+    border-radius: 0;
+    bottom: 100px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 24px;
+    height: 40px;
+    line-height: 38px;
+    right: 0;
+    text-align: center;
+    width: 40px;
+}
+
+.section_padding_100 {
+    padding: 100px 0;
+}
+
+.section_padding_50 {
+    padding: 50px 0;
+}
+
+.section_padding_50_0 {
+    padding: 50px 0 0 0;
+}
+
+.section_padding_100_70 {
+    padding: 100px 0 70px;
+}
+
+.section_padding_100_50 {
+    padding: 100px 0 50px;
+}
+
+.section_padding_100_0 {
+    padding: 100px 0 0;
+}
+
+.section_padding_0_100 {
+    padding: 0 0 100px;
+}
+
+.section_padding_100_20 {
+    padding: 100px 0 20px 0;
+}
+
+.section_heading {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.section_heading img {
+    margin-bottom: 10px;
+}
+
+.section_heading h2 {
+    font-size: 36px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.section_heading.white-heading h2 {
+    color: #fff;
+}
+
+.section_heading p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.medica-btn {
+    display: inline-block;
+    color: #fff;
+    background-color: transparent;
+    height: 60px;
+    padding: 0 30px;
+    line-height: 56px;
+    font-size: 14px;
+    min-width: 140px;
+    border: 2px solid #fff;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.medica-btn.btn-2 {
+    color: #fff;
+    background-color: #2f88fd;
+    border-color: #2f88fd;
+}
+
+.medica-btn.btn-3 {
+    color: #2f88fd;
+    background-color: #fff;
+    border-color: #2f88fd;
+}
+
+.medica-btn.btn-4 {
+    color: #262626;
+    background-color: #fff;
+    border-color: #262626;
+}
+
+.medica-btn.btn-5 {
+    color: #2f88fd;
+    background-color: #262626;
+    border-color: #262626;
+}
+
+.medica-btn:hover,
+.medica-btn:focus {
+    color: #fff;
+    background-color: #2f88fd;
+    border-color: #2f88fd;
+}
+
+.gradient-background {
+    background: #243eff;
+    background: -webkit-linear-gradient(to right, #3de6fa, #243eff);
+    background: -webkit-linear-gradient(left, #3de6fa, #243eff);
+    background: linear-gradient(to right, #3de6fa, #243eff);
+}
+
+.gradient-background-overlay,
+.background-overlay {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gradient-background-overlay:after,
+.background-overlay:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: #243eff;
+    background: -webkit-linear-gradient(to right, #3de6fa, #243eff);
+    background: -webkit-linear-gradient(left, #3de6fa, #243eff);
+    background: linear-gradient(to right, #3de6fa, #243eff);
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.background-overlay:after {
+    background: rgba(36, 62, 255, 0.8);
+}
+
+.nicescroll-rails {
+    z-index: 999999 !important;
+}

@@ -1,0 +1,36 @@
+header.header-area
+
+  //- Main Header Area
+  div#stickyHeader.main-header-area
+    div.container.h-100
+      div.row.h-100.align-items-center
+        div.col-12.h-100
+          div.main-menu.h-100
+            nav.navbar.h-100-navbar-expand-lg
+              //- Logo area
+              a(href="index.html").navbar-brand.img-logo
+                img(src="img/logo-azul.png" alt="logo")
+              button(type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation").navbar-toggler
+                i.fa.fa-bars Menu
+              div#mainMenu.collapse.navbar-collapse
+                //- Menu Area
+                ul.navbar-nav.ml-auto
+                  li.nav-item
+                    a(href="promociones.html").nav-link Promociones
+                  li.nav-item.dropdown
+                    a#navbarDropdown(href="#").nav-link.dropdown-toggle
+                      div(aria-labelledby="navbarDropdown").dropdown-menu
+                        a(href="#").dropdown-item Servicio 1
+                        a(href="#").dropdown-item Servicio 2
+                        a(href="#").dropdown-item Servicio 3
+                        a(href="#").dropdown-item Servicio 4
+                        a(href="#").dropdown-item Servicio 5
+                  li.nav-item
+                    a(href="#").nav-link Testimonios
+                  li.nav-item
+                    a(href="#").nav-link Ubicación
+                //- Acá va la barra de busqueda
+                    
+                  
+                                
+                                        

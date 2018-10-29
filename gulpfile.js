@@ -43,8 +43,8 @@ gulp.task('pug', function(){
 });
 
 gulp.task('scripts', function() {
-  return gulp.src('./dev/js/*.js')
-    .pipe(concat('scripts.js'))
+  return gulp.src('./dev/js/**/*.js')
+    // .pipe(concat('./dev/js/*.js'))
     // .pipe(uglify())
     .pipe(gulp.dest('./public/js/'))
 });
