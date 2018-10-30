@@ -1,0 +1,28 @@
+/* :: 16.0 Services Area CSS */
+
+.single-service {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+
+.single-service > img {
+    margin-bottom: 50px;
+}
+
+.single-service h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.single-service a {
+    color: #2f88fd;
+    display: block;
+    font-weight: 600;
+}
+
+.single-service a:hover,
+.single-service a:focus {
+    color: #7f7e7e;
+}

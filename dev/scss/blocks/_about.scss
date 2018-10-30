@@ -1,0 +1,54 @@
+/* :: 6.0 About Us Area CSS */
+
+.medica-about-text h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.medica-about-text h2 span {
+    background-color: #2f88fd;
+    color: #fff;
+    padding: 2px;
+}
+
+.medica-about-text p:last-of-type {
+    margin-bottom: 40px;
+}
+
+.medica-about-text ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.medica-about-text ul li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    z-index: 1;
+    padding-left: 40px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.medica-about-text ul li:before {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #2f88fd;
+    border-radius: 50%;
+    content: '';
+}
+
+.medica-about-thumbnail {
+    text-align: center;
+}

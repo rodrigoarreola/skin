@@ -1,3 +1,14 @@
+/*
+  Import of all the assets
+  the assets are in public/css
+*/
+@import 'assets/bootstrap.min.css';
+@import 'assets/owl.carousel.css';
+@import 'assets/magnific-popup.css';
+@import 'assets/animate.css';
+@import 'assets/font-awesome.min.css';
+@import 'assets/themify-icons.css';
+
 // Config
 // First import all the files that doesn't generate CSS
 // @import "config/functions";
@@ -9,11 +20,25 @@
 @import 'base/base';
 
 // Layout
-// @import 'layout/layout';
+@import 'layout/responsive';
 
 //Blocks
 @import 'blocks/preloader';
 @import 'blocks/header';
+@import 'blocks/welcome';
+@import "blocks/about";
+@import "blocks/service";
+@import "blocks/doctors";
+@import "blocks/testimonials";
+@import "blocks/calltoaction";
+@import "blocks/footer";
+@import "blocks/breadcrumbs";
+@import "blocks/cta";
+@import "blocks/department";
+@import "blocks/service_area";
+@import "blocks/blog";
+@import "blocks/contact";
+
 
 // Components
 // @import 'components/about';

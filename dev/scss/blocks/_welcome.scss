@@ -1,0 +1,262 @@
+/* :: 5.0 Welcome Area CSS */
+
+.hero-area,
+.single-hero-slide {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.hero-slides-content h2 {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.hero-slides-content h5 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.hero-area .owl-prev,
+.hero-area .owl-next,
+.medica-testimonials-area .owl-prev,
+.medica-testimonials-area .owl-next {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    border: 2px solid #fff;
+    top: 50%;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    left: 70px;
+    margin-top: -22px;
+    opacity: 0.3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    -webkit-transition-duration: 300ms;
+            transition-duration: 300ms;
+}
+
+.hero-area .owl-next,
+.medica-testimonials-area .owl-next {
+    left: auto;
+    right: 70px;
+}
+
+.hero-area .owl-dots {
+    width: 1110px;
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+.hero-area .owl-dot {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    border: 2px solid transparent;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 31px;
+    font-weight: 600;
+}
+
+.hero-area .owl-dot.active {
+    border: 2px solid #fff;
+}
+
+.hero-area:hover .owl-prev,
+.hero-area:hover .owl-next,
+.medica-testimonials-area:hover .owl-prev,
+.medica-testimonials-area:hover .owl-next {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+
+.medica-about-us-area {
+    position: relative;
+    z-index: 1;
+}
+
+.medica-about-us-area:after {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 80px;
+    left: 0;
+    background-color: #e5f1f3;
+    content: '';
+    width: 100%;
+}
+
+.medica-contact-info-area {
+    padding: 50px 0 0;
+    background-color: #e5f1f3;
+}
+
+.single-contact-info {
+    margin-bottom: 50px;
+}
+
+.contact-meta p {
+    margin: 0;
+    color: #6c6c6c;
+}
+
+.medica-emergency-card,
+.medica-doctors-card,
+.medica-appointment-card,
+.medica-department-card,
+.medica-contact-card,
+.medica-catagories-card,
+.latest-news-widget-area {
+    padding: 50px 40px;
+    background-color: #38c3fb;
+    width: 100%;
+}
+
+.medica-card-area .col-12 {
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.medica-doctors-card,
+.medica-department-card {
+    background-color: #2f88fd;
+}
+
+.medica-appointment-card {
+    background-color: #1063cf;
+    padding-bottom: 30px;
+}
+
+.medica-contact-card {
+    background-color: #093f86;
+}
+
+.latest-news-widget-area,
+.medica-catagories-card {
+    background-color: transparent;
+}
+
+.medica-emergency-card h5,
+.medica-doctors-card h5,
+.medica-appointment-card h5,
+.medica-department-card h5,
+.medica-contact-card h5 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.latest-news-widget-area h5,
+.medica-catagories-card h5 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.medica-emergency-card h4 {
+    color: #093c80;
+    margin-bottom: 30px;
+}
+
+.medica-emergency-card p,
+.medica-doctors-card p {
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.medica-emergency-card > a,
+.medica-doctors-card > a {
+    color: #fff;
+    font-size: 12px;
+}
+
+.medica-appointment-card .form-control {
+    width: 100%;
+    height: 40px;
+    background-color: #2f88fd;
+    border: none;
+    border-radius: 0;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.medica-appointment-card .form-control::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.medica-appointment-card .form-control::-moz-placeholder {
+    color: #fff;
+}
+
+.medica-appointment-card .form-control:-ms-input-placeholder {
+    color: #fff;
+}
+
+.medica-appointment-card .form-control::placeholder {
+    color: #fff;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: 40px;
+}
+
+.medica-appointment-card select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.department-menu li a {
+    display: block;
+    color: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #7badee;
+}
+
+.department-menu li a:hover,
+.department-menu li a:focus {
+    padding-left: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.medica-contact-card .single-contact-info {
+    margin-bottom: 30px;
+}
+
+.medica-contact-card .contact-meta p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.catagories-menu li a {
+    display: block;
+    color: #7f7e7e;
+    padding: 15px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.catagories-menu li a:hover,
+.catagories-menu li a:focus {
+    padding-left: 20px;
+    border-bottom: 1px solid #2f88fd;
+    color: #2f88fd;
+}
+
+.department-menu li:last-child a,
+.catagories-menu li:last-child a {
+    border-bottom: none;
+}

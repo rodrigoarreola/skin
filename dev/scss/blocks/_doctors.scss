@@ -1,0 +1,52 @@
+/* :: 8.0 Doctor Area CSS */
+
+.single-doctor-area {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 80px;
+}
+
+.doctor-meta {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.doctor-meta h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.doctor-meta h6 {
+    color: #7f7f7f;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.doctor-social-info a {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    color: #2f88fd;
+    border-radius: 50%;
+    border: 2px solid #2f88fd;
+    line-height: 29px;
+    font-size: 13px;
+    margin: 0 5px;
+}
+
+.doctor-social-info a:hover,
+.doctor-social-info a:focus {
+    color: #fff;
+    border-color: #2f88fd;
+    background-color: #2f88fd;
+}
+
+.doctor-social-info {
+    margin-top: 20px;
+}
+
+.doctor-thumbnail {
+    text-align: center;
+}

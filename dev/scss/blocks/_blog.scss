@@ -1,0 +1,89 @@
+/* :: 17.0 Blog Area CSS */
+
+.single-blog-area {
+    margin-bottom: 100px;
+}
+
+.single-blog-area,
+.single-blog-area .post-thumb {
+    position: relative;
+    z-index: 1;
+}
+
+.post-content {
+    margin-top: 40px;
+}
+
+.post-content h4 {
+    font-weight: 600;
+}
+
+.post-date > a {
+    width: 125px;
+    height: 38px;
+    background-color: #2f88fd;
+    display: block;
+    color: #fff;
+    line-height: 38px;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: 3;
+}
+
+.post-content > p {
+    margin-bottom: 20px;
+}
+
+.post-meta p {
+    padding-right: 5px;
+}
+
+.post-meta p,
+.post-meta p a {
+    font-size: 12px;
+}
+
+.post-content > a,
+.post-meta p a {
+    color: #2f88fd;
+}
+
+.post-meta p:last-of-type a,
+.post-content > a:hover,
+.post-content > a:focus,
+.latest-news-widget-area .widget-post-content a {
+    color: #7f7e7e;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.pagination .page-link {
+    padding: 0;
+    margin-left: 2px;
+    line-height: 31px;
+    color: #262626;
+    background-color: #fff;
+    border: 2px solid transparent;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+.pagination .active .page-link,
+.pagination .page-link:hover,
+.pagination .page-link:focus {
+    color: #2f88fd;
+    background-color: #fff;
+    border: 2px solid #2f88fd;
+}

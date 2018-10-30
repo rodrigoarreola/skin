@@ -1,0 +1,23 @@
+/* :: 15.0 Department Area CSS */
+
+.single-department-area {
+    margin-bottom: 100px;
+}
+
+.single-department-area > img {
+    margin-bottom: 20px;
+    height: 50px;
+    width: auto;
+}
+
+.single-department-area > h6 {
+    font-weight: 600;
+    margin-bottom: 0;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+}
+
+.single-department-area:hover > h6,
+.single-department-area:focus > h6 {
+    color: #2f88fd;
+}

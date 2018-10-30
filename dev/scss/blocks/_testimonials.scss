@@ -1,0 +1,35 @@
+/* :: 9.0 Testimonials Area CSS */
+
+.medica-testimonials-area {
+    position: relative;
+    z-index: 1;
+}
+
+.single-testimonial-slide {
+    text-align: center;
+}
+
+.single-testimonial-slide .col-12 > h6 {
+    color: #fff;
+    line-height: 2.2;
+    margin-bottom: 40px;
+}
+
+.testimonial-given-author-info img {
+    width: 78px !important;
+    height: 78px !important;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.testimonial-given-author-info > h6 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.testimonial-given-author-info > p {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}

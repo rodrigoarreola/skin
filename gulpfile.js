@@ -1,6 +1,8 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var pug = require('gulp-pug');
+var cssnano = require('gulp-cssnano');
+var postcss = require('gulp-postcss');
 var browserSync = require('browser-sync');
 var imagemin = require('gulp-imagemin');
 var imageminMozjpeg = require('imagemin-mozjpeg');
@@ -29,6 +31,9 @@ gulp.task('serve', function() {
 gulp.task('sass', function() {
     return gulp.src("./dev/scss/*.scss")
         .pipe(sass())
+        .pipe(cssnano({
+            discardComments: {removeAll: true}
+        }))
         .pipe(gulp.dest("./public/css"))
         .pipe(browserSync.stream());
 });
@@ -50,7 +55,7 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('image', () =>
-    gulp.src('./dev/img/*')
+    gulp.src('./dev/img/**/*')
         .pipe(imagemin([
           imageminMozjpeg({
                 quality: 75

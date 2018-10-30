@@ -4,28 +4,44 @@
     <title>Web Template</title>
     <meta charset="UTF8"/>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1"/>
-    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
   </head>
   <body>
     <div id="preloader">
       <div class="logo-load"></div><img src="./img/loader.png" alt="logo"/>
     </div>
+    <!-- ***** Header Area Start *****-->
     <header class="header-area">
+      <!-- Main Header Area-->
       <div class="main-header-area" id="stickyHeader">
         <div class="container h-100">
           <div class="row h-100 align-items-center">
             <div class="col-12 h-100">
               <div class="main-menu h-100">
-                <nav class="navbar h-100-navbar-expand-lg"><a class="navbar-brand img-logo" href="index.html"><img src="img/logo-azul.png" alt="logo"/></a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars">Menu</i></button>
+                <nav class="navbar h-100 navbar-expand-lg">
+                  <!-- Logo Area--><a class="navbar-brand img-logo" href="index.html"><img src="img/logo-azul.png" alt="Logo"/></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i> Menu</button>
                   <div class="collapse navbar-collapse" id="mainMenu">
+                    <!-- Menu Area-->
                     <ul class="navbar-nav ml-auto">
-                      <li class="nav-item"><a class="nav-link" href="promociones.html">Promociones</a></li>
-                      <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#">
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Servicio 1</a><a class="dropdown-item" href="#">Servicio 2</a><a class="dropdown-item" href="#">Servicio 3</a><a class="dropdown-item" href="#">Servicio 4</a><a class="dropdown-item" href="#">Servicio 5</a></div></a></li>
-                      <li class="nav-item"><a class="nav-link" href="#">Testimonios</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#">Ubicación</a></li>
+                      <li class="nav-item"><a class="nav-link" href="">Promociones</a></li>
+                      <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="">Servicio 1</a><a class="dropdown-item" href="">Servicio 2</a><a class="dropdown-item" href="">Servicio 3</a><a class="dropdown-item" href="">Servicio 4</a><a class="dropdown-item" href="">Servicio 5</a>
+                          <!-- <a class="dropdown-item" href="elements.html">Elements</a>-->
+                        </div>
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="">Testimonios</a></li>
+                      <li class="nav-item"><a class="nav-link" href="">Ubicación</a></li>
                     </ul>
+                    <!-- Search Form-->
+                    <div class="header-search-form ml-auto">
+                      <form action="#">
+                        <input class="form-control" id="search" type="search" placeholder="¿Qué estás buscando?" name="search"/>
+                        <input class="d-none" type="submit" value="submit"/>
+                      </form>
+                    </div>
+                    <!-- Search btn-->
+                    <div id="searchbtn"><i class="ti-search" aria-hidden="true"></i></div>
                   </div>
                 </nav>
               </div>
@@ -34,7 +50,65 @@
         </div>
       </div>
     </header>
-    <script src="./js/jquery/jquery.js"></script>
-    <script src="./js/scripts.js"></script>
+    <!-- ***** Header Area End *****-->
+    <!-- ***** Hero Area Start *****-->
+    <section class="hero-area">
+      <div class="hero-slides owl-carousel">
+        <!-- Single Hero Slide-->
+        <div class="single-hero-slide height-800 bg-img blur-img" style="background-image: url(img/home/bg1.jpg);">
+          <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <div class="col-12">
+                <div class="hero-slides-content">
+                  <h2 data-animation="fadeInUp" data-delay="100ms">Lucir mejor <br/>es posible</h2>
+                  <h5 data-animation="fadeInUp" data-delay="400ms">Ven y consiéntete</h5>
+                  <div class="slide-btn-group mt-50" data-animation="fadeInUp" data-delay="700ms">
+                    <!-- <a href="#" class="btn medica-btn">Agenda una cita</a>--><a class="btn medica-btn ml-2 btn-2" href="#">Agenda una cita</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single Hero Slide-->
+        <div class="single-hero-slide height-800 bg-img blur-img" style="background-image: url(img/home/bg2.jpg);">
+          <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <div class="col-12">
+                <div class="hero-slides-content">
+                  <h2 data-animation="fadeInUp" data-delay="100ms">¿Necesitas un descanso? <br/>Prueba con un masaje</h2>
+                  <h5 data-animation="fadeInUp" data-delay="400ms">Dejanos consentirte</h5>
+                  <div class="slide-btn-group mt-50" data-animation="fadeInUp" data-delay="700ms">
+                    <!-- <a href="#" class="btn medica-btn">Make an Appointment</a>--><a class="btn medica-btn ml-2 btn-2" href="#">Agenda una cita</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single Hero Slide-->
+        <div class="single-hero-slide height-800 bg-img blur-img" style="background-image: url(img/home/bg3.jpg);">
+          <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <div class="col-12">
+                <div class="hero-slides-content">
+                  <h2 data-animation="fadeInUp" data-delay="100ms">Luce radiante <br/>todos los días</h2>
+                  <h5 data-animation="fadeInUp" data-delay="400ms">Conoce nuestros tratamientos faciales</h5>
+                  <div class="slide-btn-group mt-50" data-animation="fadeInUp" data-delay="700ms">
+                    <!-- <a href="#" class="btn medica-btn">Make an Appointment</a>--><a class="btn medica-btn ml-2 btn-2" href="#">Agenda una cita</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Hero Area End *****-->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

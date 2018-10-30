@@ -1,36 +1,42 @@
+// ***** Header Area Start *****
 header.header-area
-
-  //- Main Header Area
-  div#stickyHeader.main-header-area
-    div.container.h-100
-      div.row.h-100.align-items-center
-        div.col-12.h-100
-          div.main-menu.h-100
-            nav.navbar.h-100-navbar-expand-lg
-              //- Logo area
-              a(href="index.html").navbar-brand.img-logo
-                img(src="img/logo-azul.png" alt="logo")
-              button(type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation").navbar-toggler
-                i.fa.fa-bars Menu
-              div#mainMenu.collapse.navbar-collapse
-                //- Menu Area
+  // Main Header Area
+  #stickyHeader.main-header-area
+    .container.h-100
+      .row.h-100.align-items-center
+        .col-12.h-100
+          .main-menu.h-100
+            nav.navbar.h-100.navbar-expand-lg
+              // Logo Area
+              a.navbar-brand.img-logo(href='index.html')
+                img(src='img/logo-azul.png', alt='Logo')
+              button.navbar-toggler(type='button', data-toggle='collapse', data-target='#mainMenu', aria-controls='mainMenu', aria-expanded='false', aria-label='Toggle navigation')
+                i.fa.fa-bars
+                |  Menu
+              #mainMenu.collapse.navbar-collapse
+                // Menu Area
                 ul.navbar-nav.ml-auto
                   li.nav-item
-                    a(href="promociones.html").nav-link Promociones
+                    a.nav-link(href='') Promociones
                   li.nav-item.dropdown
-                    a#navbarDropdown(href="#").nav-link.dropdown-toggle
-                      div(aria-labelledby="navbarDropdown").dropdown-menu
-                        a(href="#").dropdown-item Servicio 1
-                        a(href="#").dropdown-item Servicio 2
-                        a(href="#").dropdown-item Servicio 3
-                        a(href="#").dropdown-item Servicio 4
-                        a(href="#").dropdown-item Servicio 5
+                    a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Servicios
+                    .dropdown-menu(aria-labelledby='navbarDropdown')
+                      a.dropdown-item(href='') Servicio 1
+                      a.dropdown-item(href='') Servicio 2
+                      a.dropdown-item(href='') Servicio 3
+                      a.dropdown-item(href='') Servicio 4
+                      a.dropdown-item(href='') Servicio 5
+                      // <a class="dropdown-item" href="elements.html">Elements</a>
                   li.nav-item
-                    a(href="#").nav-link Testimonios
+                    a.nav-link(href='') Testimonios
                   li.nav-item
-                    a(href="#").nav-link Ubicación
-                //- Acá va la barra de busqueda
-                    
-                  
-                                
-                                        
+                    a.nav-link(href='') Ubicación
+                // Search Form
+                .header-search-form.ml-auto
+                  form(action='#')
+                    input#search.form-control(type='search', placeholder='¿Qué estás buscando?', name='search')
+                    input.d-none(type='submit', value='submit')
+                // Search btn
+                #searchbtn
+                  i.ti-search(aria-hidden='true')
+// ***** Header Area End *****

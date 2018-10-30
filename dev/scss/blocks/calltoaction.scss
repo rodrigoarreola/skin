@@ -1,0 +1,41 @@
+/* :: 10.0 Call to Action Area CSS */
+
+.medica-call-to-action {
+    position: relative;
+    z-index: 1;
+}
+
+.single-cool-fact {
+    padding-bottom: 50px;
+}
+
+.single-cool-fact .counter-area h2 {
+    color: #fff;
+    font-size: 36px;
+}
+
+.single-cool-fact .counter-area h6 {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+/* :: 11.0 Book an appoinment Area CSS */
+
+.medica-book-an-appointment-area .medica-appointment-card {
+    padding: 50px 30px;
+}
+
+.medica-appointment-card .form-group {
+    position: relative;
+    z-index: 1;
+}
+
+.medica-appointment-card .form-group > i {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    line-height: 40px;
+    top: 0;
+    right: 10px;
+    color: #fff;
+}
