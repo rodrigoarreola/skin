@@ -1,0 +1,21 @@
+//- // ***** Appointment Area Start *****
+section.medica-book-an-appointment-area.section_padding_100_0
+  .container
+    .row.align-items-center
+      .col-12.col-lg-6
+        .medica-appointment-card
+          h5 Agenda una valoración
+          form(action='#', method='post')
+            .form-group
+              input#name.form-control.text-white(type='text', name='name', placeholder='Nombre')
+            .form-group
+              input#number.form-control(type='text', name='number', placeholder='Teléfono')
+            .form-group
+              input#email.form-control(type='email', name='email', placeholder='E-mail')
+            .form-group
+              input#date.form-control(type='date', name='date', placeholder='Fecha')
+            button.btn.medica-btn.mt-15(type='submit') Agendar cita
+      .col-12.col-lg-6
+        .medica-appointment-thumb
+          img(src='img/home/reception.png', alt='')
+//- // ***** Appointment Area End *****

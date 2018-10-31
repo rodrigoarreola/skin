@@ -1,0 +1,62 @@
+//- // ***** About Us Area Start *****
+section.medica-about-us-area
+  //- // Card Area
+  .medica-card-area
+    .container
+      .row.no-gutters
+        .col-12.col-md-6.col-lg-4
+          .medica-emergency-card.wow.fadeInUp(data-wow-delay='0.2s')
+            h5 ¿Quienes somos?
+            h4
+              | Somos Skin & Body 
+              br
+              | Clínica láser y lipoescultura
+            p Preocupados por tu bienestar y belleza proveemos una variedad de servicios...
+            //- // <a href="#">Read More</a>
+        .col-12.col-md-6.col-lg-4
+          .medica-doctors-card.wow.fadeInUp(data-wow-delay='0.4s')
+            h5 Certificaciones
+            p
+              | Contamos con las siguientes certificaciones __________, __________ y __________. 
+              br
+              | Tenemos todo el equipo y material necesario
+              |                             para que tu única preocupación se agendar una cita.
+            //- // <a href="#">Read More</a>
+        .col-12.col-lg-4
+          .medica-appointment-card.wow.fadeInUp(data-wow-delay='0.6s')
+            h5 Agenda una valoración
+            form(action='#', method='post')
+              .form-group
+                input#name.form-control.text-white(type='text', name='name', placeholder='Nombre')
+              .form-group
+                input#number.form-control(type='text', name='number', placeholder='Teléfono')
+              .form-group
+                input#email.form-control(type='email', name='email', placeholder='E-mail')
+              .form-group
+                input#date.form-control(type='date', name='date', placeholder='Fecha')
+              button.btn.medica-btn.mt-15(type='submit') Agendar valoración
+    
+  .medica-about-content.section_padding_100
+    .container
+      .row
+        .col-12.col-lg-7
+          .medica-about-text
+            h2
+              | Bienvenido a 
+              span Skin & Body
+              br
+              | Clínica láser y lipoescultura
+            p
+              | Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh. Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque. Fusce ac mattis nulla. Morbi eget ornare dui. Donec nec fringilla mi. Pellentesque molestie consequat felis vitae elementum. Proin ut tempor urna.
+            ul
+              li Sin dolor
+              li Sin efectos secundarios
+              li Sin irritación
+              li Rápido
+              li Efectivo
+              li Seguro
+              li Resultados desde la primera sesión
+            a.btn.medica-btn.btn-2(href='#') Cónoce más
+        .col-12.col-lg-5
+          .medica-about-thumbnail
+            img(src='https://picsum.photos/400/600', alt='')
