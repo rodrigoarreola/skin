@@ -225,4 +225,17 @@
   .widget-single-blog-post{
     display: flex;
   }
+  // Size of the fonts on mobile
+  .bog-font{
+    font-size: 12px;
+  }
+  .medium-font{
+    font-size: 8px;
+  }
+  .hero-slides-content h2 {
+    font-size: 36px !important;
+  }
+  .hero-slides-content h5 {
+    font-size: 18px !important;
+  }
 }
