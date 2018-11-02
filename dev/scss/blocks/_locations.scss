@@ -1,0 +1,31 @@
+.info-location{
+  display: grid;
+  // margin-bottom: 100px;
+}
+
+.info-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-container{
+  margin-bottom: 50px;
+}
+
+.title-h2{
+  color:  $blue;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.color-container{
+  // content: '';
+  // width: 100%;
+  // height: 100%;
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  // background: linear-gradient(150deg, #1063CF, #38C3FB);
+  // opacity: 0.4;
+  // z-index: -100;
+}
